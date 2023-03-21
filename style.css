@@ -94,14 +94,13 @@ padding-top: 2%;}
 footer{
     display: flex;
     background-color: rgb(29, 29, 33);
+    justify-content: space-evenly;
+    height: 300px;
 }
 
 .footer{
-   
-    height: 300px;
-    
     padding-top: 7%;
-    justify-content: space-evenly;
+    
     color: white;
 
 }
