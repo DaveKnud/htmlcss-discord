@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size:22px ;}
+
 
 header{background-image: url(jumbo.png);
     background-size: cover;
@@ -15,32 +19,69 @@ justify-content: space-evenly;
 align-items: center;
 padding-top: 2%;}
 
+h1{
+    padding-bottom: 3%;
+}
+
 #logo{font-size: 40px;
     display: flex;}
 
-    .menu{display: flex;
-        list-style: none;
-        justify-content: space-between;
-        flex-basis: 40%;
-        color: white;
-        }
-        
-        .botton-white{
-            background-color: white;
-            border-radius: 20px;
-            padding: 10px;
-            color: black;
-            margin-left: 2%;
-           }
+.menu{display: flex;
+    list-style: none;
+    justify-content: space-between;
+    flex-basis: 40%;
+    color: white;
+    }
 
-           .botton-blue{
-            
-            background-color: rgb(51, 87, 248);
-            border: 0px;
-            padding: 10px;
-            border-radius: 20px;
-            color: white;
-           }
+    li:active{
+        background-color: black;
+        color: aquamarine;
+    }
+
+    .col5 div:hover,.col4 div:hover,.col3 div:hover,.col2 div:hover,.col1 div:hover{
+        background-color: silver;
+        color: black;
+
+    }
+        
+.botton-white,.botton-black,.botton-blue,.botton-blue2{
+    border-radius: 25px;
+    padding: 12px;
+    margin-left: 2%;
+    font-size: 18px;
+    }
+
+    .botton-white:hover,.botton-black:hover,.botton-blue:hover,.botton-blue2:hover{
+        background-color: silver;
+    }
+    
+.botton-white{
+color: black;
+background-color: white;
+}
+
+.botton-black{
+background-color: black;
+color: white;
+
+}
+
+
+.botton-blue,.botton-blue2{
+
+background-color: #628CF7;
+border: 0px;
+color: white;
+}
+
+.botton-blue{
+    margin-top: 5%;
+}
+
+
+       
+
+
 
            /* Hero */
 .hero{color: white;
@@ -56,10 +97,13 @@ padding-top: 2%;}
 }
 
 
+
+
 .main-container1, .main-reverse2,.main-container3{
     display: flex;
     justify-content: space-between;
     margin-bottom: 3%;
+    padding: 10%;
 }
 
 .container-left{
@@ -68,7 +112,7 @@ padding-top: 2%;}
 
 .container-right{
     width: 49%;
-    text-align: center;
+    text-align:start;
     padding: 5%;
 }
 
@@ -79,7 +123,7 @@ padding-top: 2%;}
 
 .main-container4{
     width: 100%;
-    height: 1000px;
+    height: 1100px;
     background-color: silver;
     padding: 10%;
     text-align: center;
@@ -95,7 +139,7 @@ footer{
     
     background-color: rgb(29, 29, 33);
     
-    height: 500px;
+    height: 400px;
 }
 
 .footer{
@@ -103,12 +147,13 @@ footer{
     justify-content: space-evenly;
     padding-top: 7%;
     color: white;
+    font-size: 15px;
 
 }
 
 
 .col1,.col2,.col3,.col4,.col5{
-    height: 300px;
+    height: 200px;
 }
 .col1{
     width: 30%;
@@ -118,18 +163,17 @@ footer{
 }
 
 .importante-footer{
-color: blue;
+color: #628CF7;
 }
 
 .logo-finale{
     width: 90%;
     margin: auto;
     display: flex;
+    padding-top: 1%;
     justify-content: space-between;
-   
-   
-   
-}
+    border-top: 1px silver solid;
+   }
 
 /* DEBUG
 .container-right{
