@@ -41,6 +41,11 @@ margin: auto;}
     color: white;
     }
 
+    a{
+        text-decoration: none;
+        color: white;
+    }
+
     li:active{
         background-color: black;
         color: aquamarine;
